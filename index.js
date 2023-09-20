@@ -37,9 +37,9 @@ mongoose
     console.log("Database Connected!");
     // Listen to PORT only if Database is connected
     // Listen to a Port:
-    // app.listen(PORT, () => {
-    //   console.log(`Listening ${PORT}`);
-    // });
+    app.listen(PORT, () => {
+      console.log(`Listening ${PORT}`);
+    });
   })
   .catch((e) => {
     console.log(e);
